@@ -9,6 +9,9 @@ $ npm install --global hurr
 $ hurr --help
 ```
 
+## ToDo
+
+Write some tests, I guess?
 
 ## License
 

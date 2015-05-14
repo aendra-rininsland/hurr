@@ -1,6 +1,6 @@
 {
   "name": "hurr",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Automatically choose whether to run the command as gulp or grunt based on current project.",
   "author": {
     "name": "Ændrew Rininsland",

@@ -19,8 +19,10 @@ module.exports = function (str) {
   str = str ? str : '';
   
   if (identity) {
+    console.log('Using: ' + identity);
+    
     var child = spawn(identity, str.split(' '), {stdio: 'inherit'});
-
+    
     child.on('data', function(buff) {
       console.log(buff.toString('utf8'));
     });
