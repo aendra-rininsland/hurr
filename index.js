@@ -16,7 +16,8 @@ module.exports = function (str) {
     
   }
   
-  console.log(identity);  
+  str = str ? str : '';
+  
   if (identity) {
     var child = spawn(identity, str.split(' '), {stdio: 'inherit'});
 
